@@ -1,6 +1,6 @@
 {
   "name": "@bartaz/icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "build": "tsc convert-icons.ts --outDir ./dist",
     "convert": "svgr ./icons --out-dir ./src --ext tsx --typescript --icon --replace-attr-values '#202939'"
