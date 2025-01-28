@@ -1,6 +1,6 @@
 {
   "name": "bartaz-icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scripts": {
     "clean": "rimraf dist && rimraf src",
     "build": "yarn convert && tsup src/index.tsx --format cjs,esm --minify --dts --out-dir dist",
