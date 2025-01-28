@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/ZeynalliZeynal/bart-az-icons/compare/v1.2.2...v1.3.0) (2025-01-28)
+
+
+### Features
+
+* add all of the icons ([9080d76](https://github.com/ZeynalliZeynal/bart-az-icons/commit/9080d76f93e67009a151d5cf72cbebbe429e7e53))
+
 ### [1.2.2](https://github.com/ZeynalliZeynal/bart-az-icons/compare/v1.2.1...v1.2.2) (2025-01-28)
 
 ### [1.2.1](https://github.com/ZeynalliZeynal/bart-az-icons/compare/v1.2.0...v1.2.1) (2025-01-28)
