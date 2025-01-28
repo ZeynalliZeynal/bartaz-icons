@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/ZeynalliZeynal/bart-az-icons/compare/v1.2.0...v1.2.1) (2025-01-28)
+
+
+### Bug Fixes
+
+* change main property in package.json ([c5455d1](https://github.com/ZeynalliZeynal/bart-az-icons/commit/c5455d14dd2c86bfcf762458ad4c7a4d7cbdc73f))
+
 ## [1.2.0](https://github.com/ZeynalliZeynal/bart-az-icons/compare/v1.1.0...v1.2.0) (2025-01-28)
 
 
