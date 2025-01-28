@@ -3,8 +3,8 @@
   "version": "1.2.1",
   "scripts": {
     "clean": "rimraf dist && rimraf src",
-    "build": "yarn convert && tsup src/index.tsx --format cjs,esm --minify --dts --out-dir dist",
-    "convert": "svgr ./icons --out-dir ./src --ext tsx --typescript --icon --replace-attr-values '#202939=currentColor'"
+    "build": "tsup src/index.tsx --format cjs,esm --minify --dts --out-dir dist",
+    "convert": "npx svgr ./icons --out-dir ./src --ext tsx --typescript --icon --replace-attr-values '#202939=currentColor'"
   },
   "type": "module",
   "source": "src/index.ts",
@@ -13,7 +13,7 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "README.md"
   ],
   "author": "Zeynal Zeynalli",
   "license": "MIT",
