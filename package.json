@@ -8,7 +8,7 @@
   },
   "type": "module",
   "source": "src/index.ts",
-  "main": "index.js",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
