@@ -1,39 +1,37 @@
 {
-  "name": "@bartaz/icons",
+  "name": "bartaz-icons",
   "version": "1.1.0",
   "scripts": {
-    "build": "tsc convert-icons.ts --outDir ./dist",
-    "convert": "svgr ./icons --out-dir ./src --ext tsx --typescript --icon --replace-attr-values '#202939'"
+    "clean": "rimraf dist && rimraf src",
+    "build": "yarn convert && tsup src/index.tsx --format cjs,esm --minify --dts --out-dir dist",
+    "convert": "svgr ./icons --out-dir ./src --ext tsx --typescript --icon --replace-attr-values '#202939=currentColor'"
   },
   "type": "module",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "source": "src/index.ts",
+  "main": "index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "author": "Zeynal Zeynalli",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZeynalliZeynal/bart-az-icons.git"
   },
   "devDependencies": {
+    "@preconstruct/cli": "^2.8.10",
     "@svgr/cli": "^8.1.0",
+    "@swc/core": "^1.10.11",
     "@types/node": "^22.12.0",
     "@types/react": "^19.0.8",
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
     "standard-version": "^9.5.0",
     "ts-node": "^10.9.2",
+    "tsup": "^8.3.6",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
     "xml-js": "^1.6.11"
