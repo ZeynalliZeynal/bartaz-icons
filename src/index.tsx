@@ -1,4 +1,4 @@
-export { default as Svg3User } from './3User';
+export { default as Svg3User } from './Profile3Users';
 export { default as AccountToAccount } from './AccountToAccount';
 export { default as AccountToCard } from './AccountToCard';
 export { default as Anipay1 } from './Anipay1';

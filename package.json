@@ -4,7 +4,7 @@
   "scripts": {
     "clean": "rimraf dist && rimraf src",
     "build": "tsup src/index.tsx --format cjs,esm --minify --dts --out-dir dist",
-    "convert": "npx svgr ./icons --out-dir ./src --ext tsx --typescript --replace-attr-values '#202939=currentColor'"
+    "convert": "npx svgr ./icons --out-dir ./src --ext tsx --icon --typescript --replace-attr-values #202939=currentColor --replace-attr-values #1C1C1C=currentColor"
   },
   "type": "module",
   "source": "src/index.ts",
